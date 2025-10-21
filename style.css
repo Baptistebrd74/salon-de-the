@@ -1,1 +1,27 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F6EFE7;
+}
+
+.logo {
+  width: 107px;
+  height: 107px;
+  margin-left: 62px;
+}
+
+.liste-header {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 42px;
+  margin-right: 84px;
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 24px;
+}/*# sourceMappingURL=style.css.map */
