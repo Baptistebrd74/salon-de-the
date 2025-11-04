@@ -16,6 +16,11 @@ header {
   margin-left: 62px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .liste-header {
   list-style: none;
   display: flex;
@@ -24,4 +29,87 @@ header {
   margin-right: 84px;
   font-family: "Sansita Swashed", system-ui;
   font-size: 24px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  width: 100%;
+  height: 665px;
+  overflow: hidden;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.banner img {
+  width: 100%;
+  filter: blur(6px);
+  filter: brightness(50%);
+}
+
+.texteBanner h2 {
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 33px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 50%;
+  left: 75px;
+  color: #F6EFE7;
+}
+
+.texteBanner p {
+  font-family: "Funnel Display", sans-serif;
+  position: absolute;
+  bottom: 40%;
+  left: 75px;
+  color: #F6EFE7;
+  width: 33%;
+}
+
+.populaire h2 {
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 33px;
+  font-weight: bold;
+  margin-left: 75px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.populaire ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.populaire img {
+  width: 339px;
+  height: 339px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding-bottom: 20px;
+}
+
+.populaire li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 30px;
+  background-color: #F6EFE7;
+  border-radius: 30px;
+  height: 550px;
+  margin-top: 50px;
+}
+
+.populaire p {
+  font-family: "Funnel Display", sans-serif;
+  font-size: small;
+  width: 320px;
+  padding-top: 20px;
 }/*# sourceMappingURL=style.css.map */
