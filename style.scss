@@ -88,3 +88,145 @@ a:hover {
 .Thés p{
     @include liParagraphe();
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+ 
+.logofooter{
+    margin: 20px;
+}
+ 
+.navfooter ul{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin: 20px;
+}
+ 
+.navfooter li{
+    list-style-type: none;
+}
+ 
+.navfooter a{
+    font-family: $titleFont;
+    text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+  .liste-header {
+    gap: 20px;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+
+  .banner {
+    height: 500px;
+  }
+
+  .texteBanner h2 {
+    font-size: 26px;
+    position: absolute;
+    left: 40px;
+    bottom: 55%;
+  }
+
+  .texteBanner p {
+    width: 50%;
+    font-size: 15px;
+    position: absolute;
+    left: 40px;
+    bottom: 45%;
+  }
+
+  .populaire ul,
+  .Thés ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .populaire li,
+  .Thés li {
+    width: 40%;
+    height: auto;
+  }
+
+  .populaire img,
+  .Thés img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 0;
+    width: 80px;
+    height: 80px;
+  }
+
+  .list ul {
+    display: none;
+    flex-direction: column;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.276);
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+  }
+ 
+  .banner {
+    height: 400px;
+  }
+
+  .texteBanner h2 {
+    font-size: 22px;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    bottom: 72%;
+  }
+
+  .texteBanner p {
+    position: absolute;
+    bottom: 55%;
+    left: 10%;
+    font-size: 14px;
+  }
+
+  .populaire ul,
+  .Thés ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .populaire li,
+  .Thés li {
+    width: 80%;
+    height: auto;
+  }
+
+  .populaire img,
+  .Thés img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+}
