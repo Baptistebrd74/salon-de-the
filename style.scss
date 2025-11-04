@@ -73,3 +73,18 @@ a:hover {
 .populaire p{
     @include liParagraphe();
 }
+.Thés h2{
+    @include liH2();
+}
+.Thés ul{
+    @include ulArticle();
+}
+.Thés img{
+    @include imgArticle();
+}
+.Thés li{
+    @include liArticle();
+}
+.Thés p{
+    @include liParagraphe();
+}

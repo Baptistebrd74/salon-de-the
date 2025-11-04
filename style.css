@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -108,6 +109,52 @@ a:hover {
 }
 
 .populaire p {
+  font-family: "Funnel Display", sans-serif;
+  font-size: small;
+  width: 320px;
+  padding-top: 20px;
+}
+
+.Thés h2 {
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 33px;
+  font-weight: bold;
+  margin-left: 75px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.Thés ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Thés img {
+  width: 339px;
+  height: 339px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding-bottom: 20px;
+}
+
+.Thés li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 30px;
+  background-color: #F6EFE7;
+  border-radius: 30px;
+  height: 550px;
+  margin-top: 50px;
+}
+
+.Thés p {
   font-family: "Funnel Display", sans-serif;
   font-size: small;
   width: 320px;
