@@ -1,5 +1,17 @@
+$bg-color: #f8f4ed;
+
+$dot-color: #c98b3c;
+
+$text-color: #2c2c2c;
+
+$accent-color: #a67c52;
+
+$border-color: #e0d7c6;
+
 $titleFont: "Sansita Swashed", system-ui;
+
 $texteFont:  "Funnel Display", sans-serif;   
+
 @mixin h2(){
     font-family: $titleFont;
     font-size: 33px;

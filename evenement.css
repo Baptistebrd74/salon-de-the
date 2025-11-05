@@ -1,0 +1,184 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F6EFE7;
+}
+
+.logo {
+  width: 107px;
+  height: 107px;
+  margin-left: 62px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.liste-header {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 42px;
+  margin-right: 84px;
+  font-family: "Sansita Swashed", system-ui;
+  font-size: 24px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.banner {
+  width: 100%;
+  height: 665px;
+  overflow: hidden;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c7af94;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  margin-top: 60px;
+}
+
+.logofooter {
+  margin: 20px;
+}
+
+.navfooter ul {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin: 20px;
+}
+
+.navfooter li {
+  list-style-type: none;
+}
+
+.navfooter a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    flex-direction: column;
+    padding: 20px 0;
+    text-align: center;
+  }
+  header .logo {
+    margin: 0 auto;
+  }
+  header .liste-header {
+    margin-top: 10px;
+    gap: 25px;
+    font-size: 20px;
+  }
+  .evenement {
+    padding: 40px 40px;
+  }
+  .evenement h2 {
+    font-size: 1.7em;
+  }
+  .evenement .event {
+    flex-direction: column;
+    text-align: center;
+  }
+  .evenement .event .text {
+    order: 2;
+    max-width: 100%;
+  }
+  .evenement .event .image {
+    order: 1;
+  }
+  .evenement .event .image img {
+    height: 220px;
+  }
+  .carousel-section .carousel-container {
+    width: 90%;
+  }
+  .carousel-section .carousel-container .carousel-item img {
+    height: 250px;
+  }
+  .carousel-section .carousel-container .carousel-btn {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  header .logo {
+    width: 80px;
+    height: 80px;
+  }
+  header .liste-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+    gap: 15px;
+  }
+  .Titre {
+    height: 250px;
+  }
+  .Titre .overlay h1 {
+    font-size: 2em;
+  }
+  .evenement {
+    padding: 30px 20px;
+  }
+  .evenement h2 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+  }
+  .evenement .event {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .evenement .event .text h3 {
+    font-size: 1.1em;
+  }
+  .evenement .event .text p {
+    font-size: 0.9em;
+  }
+  .evenement .event .image img {
+    height: 180px;
+  }
+  .carousel-section {
+    padding: 40px 0;
+  }
+  .carousel-section h2 {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+  }
+  .carousel-section .carousel-container {
+    width: 95%;
+  }
+  .carousel-section .carousel-container .carousel-item img {
+    height: 200px;
+  }
+  .carousel-section .carousel-container .carousel-btn {
+    font-size: 1.5rem;
+    padding: 5px 10px;
+  }
+  .carousel-section .carousel-dots .dot {
+    width: 10px;
+    height: 10px;
+  }
+}/*# sourceMappingURL=evenement.css.map */
